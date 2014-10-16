@@ -1,5 +1,7 @@
 package controllersProxy.web;
 
-public class ControlleProxyWebCreate {
+import controllers.ControllerUseCreate;
+
+public class ControlleProxyWebCreate implements ControllerUseCreate {
 
 }

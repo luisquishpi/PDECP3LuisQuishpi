@@ -1,6 +1,7 @@
 package models.dao;
 
-public interface UserGestorDao {
+public interface UserDao {
 
     public void findByUserId(Integer userId);
+
 }

@@ -1,8 +1,8 @@
 package models.dao.mem;
 
-import models.dao.UserGestorDao;
+import models.dao.UserDao;
 
-public class MemUserGestorDao implements UserGestorDao {
+public class MemUserDao implements UserDao {
 
     public void findByUserId(Integer userId) {
         // TODO Auto-generated method stub

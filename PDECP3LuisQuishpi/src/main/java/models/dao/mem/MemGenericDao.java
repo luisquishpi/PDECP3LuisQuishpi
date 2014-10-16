@@ -2,8 +2,11 @@ package models.dao.mem;
 
 import models.dao.GenericDao;
 
-public class MemGenericDao<T, ID> implements GenericDao<T, ID> {
+public abstract class MemGenericDao<T, ID> implements GenericDao<T, ID> {
 
+    
+    protected abstract ID getId(T entity);
+    
     public void create(T entity) {
         // TODO Auto-generated method stub
         

@@ -1,5 +1,7 @@
 package controllersProxy.web;
 
-public class ControlleProxyWebMoveCard {
+import controllers.ControllerUseMoveCard;
+
+public class ControlleProxyWebMoveCard implements ControllerUseMoveCard {
 
 }

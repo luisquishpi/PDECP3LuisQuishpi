@@ -17,7 +17,7 @@ public abstract class DaoFactory {
         DaoFactory.daoFactory = daoFactory;
     }
 
-    public abstract RoundGestorDao getRoundDao();
+    public abstract RoundDao getRoundDao();
 
-    public abstract UserGestorDao getUserGestorDao();
+    public abstract UserDao getUserGestorDao();
 }

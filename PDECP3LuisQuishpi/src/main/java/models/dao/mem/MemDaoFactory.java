@@ -1,8 +1,8 @@
 package models.dao.mem;
 
 import models.dao.DaoFactory;
-import models.dao.RoundGestorDao;
-import models.dao.UserGestorDao;
+import models.dao.RoundDao;
+import models.dao.UserDao;
 
 public class MemDaoFactory extends DaoFactory {
 
@@ -10,13 +10,13 @@ public class MemDaoFactory extends DaoFactory {
         super.setDaoFactory(this);
     }
     @Override
-    public RoundGestorDao getRoundDao() {
+    public RoundDao getRoundDao() {
         // TODO Auto-generated method stub
         return null;
     }
 
     @Override
-    public UserGestorDao getUserGestorDao() {
+    public UserDao getUserGestorDao() {
         // TODO Auto-generated method stub
         return null;
     }
