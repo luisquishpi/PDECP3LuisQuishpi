@@ -1,5 +1,7 @@
 package controllers.enterprise;
 
-public interface ControllerEnterpriseDelete {
+import controllers.ControllerUseDelete;
+
+public class ControllerEnterpriseDelete implements ControllerUseDelete{
 
 }

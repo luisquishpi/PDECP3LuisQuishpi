@@ -1,5 +1,7 @@
 package controllers.enterprise;
 
-public interface ControllerEnterpriseGetStatics {
+import controllers.ControllerUseGetStatics;
+
+public class ControllerEnterpriseGetStatics implements ControllerUseGetStatics {
 
 }

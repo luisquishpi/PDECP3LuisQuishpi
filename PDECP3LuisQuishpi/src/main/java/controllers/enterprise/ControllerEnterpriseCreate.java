@@ -1,5 +1,7 @@
 package controllers.enterprise;
 
-public interface ControllerEnterpriseCreate {
+import controllers.ControllerUseCreate;
+
+public class ControllerEnterpriseCreate implements ControllerUseCreate{
 
 }

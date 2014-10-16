@@ -1,5 +1,7 @@
 package controllers.enterprise;
 
-public interface ControllerEnterpriseLogout {
+import controllers.ControllerUseLogout;
+
+public class ControllerEnterpriseLogout implements ControllerUseLogout{
 
 }
