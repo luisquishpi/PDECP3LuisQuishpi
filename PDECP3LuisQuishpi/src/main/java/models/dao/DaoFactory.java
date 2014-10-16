@@ -1,26 +1,23 @@
 package models.dao;
 
-public final class DaoFactory {
+public abstract class DaoFactory {
 
     private static DaoFactory daoFactory;
 
-    private DaoFactory(){
-        
+    protected DaoFactory() {
+
     }
+
     public DaoFactory getDaoFactory() {
-        if (DaoFactory.daoFactory == null) {
-            DaoFactory.daoFactory = new DaoFactory();
-        }
+        assert DaoFactory.daoFactory != null : "daoFactory nulo";
         return DaoFactory.daoFactory;
-
     }
 
-    public RoundGestorDao getRoundDao() {
-        return null;
+    public void setDaoFactory(DaoFactory daoFactory) {
+        DaoFactory.daoFactory = daoFactory;
     }
 
-    public UserGestorDao getUserGestorDao() {
-        return null;
+    public abstract RoundGestorDao getRoundDao();
 
-    }
+    public abstract UserGestorDao getUserGestorDao();
 }
