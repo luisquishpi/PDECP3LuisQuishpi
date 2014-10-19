@@ -1,15 +1,21 @@
 package models.dao;
 
+import java.util.List;
+
 public interface GenericDao<T, ID> {
+
     public void create(T entity);
 
     public void delete(T entity);
 
-    public void getStatics(ID id);
+    public T read(ID id);
 
-    public void login();
+    public void update(T entity);
 
-    public void logout();
+    public void deleteByID(ID id);
 
-    public void moveCard();
+    public List<T> findAll();
+
+    public List<T> findAll(int index, int size);
+
 }

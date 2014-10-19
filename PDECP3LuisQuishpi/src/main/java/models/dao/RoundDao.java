@@ -1,5 +1,7 @@
 package models.dao;
 
-public interface RoundDao  {
+import models.entities.RoundEntidad;
+
+public interface RoundDao extends GenericDao<RoundEntidad, Integer>  {
 
 }

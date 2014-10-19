@@ -1,5 +1,6 @@
 package models.dao;
 
+
 public abstract class DaoFactory {
 
     private static DaoFactory daoFactory;
@@ -19,5 +20,5 @@ public abstract class DaoFactory {
 
     public abstract RoundDao getRoundDao();
 
-    public abstract UserDao getUserGestorDao();
+    public abstract UserDao getUserDao();
 }
