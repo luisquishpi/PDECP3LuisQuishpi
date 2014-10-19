@@ -1,5 +1,7 @@
 package controllersProxy.service;
 
-public class ControlleProxyWebServiceGetStatics {
+import controllers.ControllerUseGetStatics;
+
+public class ControlleProxyWebServiceGetStatics implements ControllerUseGetStatics {
 
 }

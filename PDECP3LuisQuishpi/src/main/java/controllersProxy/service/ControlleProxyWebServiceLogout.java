@@ -1,5 +1,7 @@
 package controllersProxy.service;
 
-public class ControlleProxyWebServiceLogout {
+import controllers.ControllerUseLogout;
+
+public class ControlleProxyWebServiceLogout implements ControllerUseLogout {
 
 }

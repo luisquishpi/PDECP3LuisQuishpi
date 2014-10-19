@@ -1,5 +1,7 @@
 package controllersProxy.service;
 
-public class ControlleProxyWebServiceDelete {
+import controllers.ControllerUseDelete;
+
+public class ControlleProxyWebServiceDelete implements ControllerUseDelete {
 
 }
