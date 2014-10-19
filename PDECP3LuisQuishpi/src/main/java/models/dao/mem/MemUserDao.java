@@ -1,12 +1,24 @@
 package models.dao.mem;
 
 import models.dao.UserDao;
+import models.entities.UserEntidad;
 
-public class MemUserDao implements UserDao {
+public class MemUserDao extends MemGenericDao<UserEntidad, Integer> implements UserDao {
 
-    public void findByUserId(Integer userId) {
-        // TODO Auto-generated method stub
+    @Override
+    protected Integer getId(UserEntidad entity) {
+        return entity.getId();
+    }
+
+    public void deleteByID(Integer id) {
         
     }
+
+    public void findByUserId(Integer userId) {
+
+        
+    }
+    
+    
 
 }
